@@ -1,0 +1,72 @@
+.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    width: 1292px;
+    height: 622px;
+    background: linear-gradient(90deg, #96e9fb 0%, #abecd6 100%);
+    border-radius: 20px;
+    margin: 34px auto;
+}
+
+.hero-cover-image {
+    width: 687px;
+    height: 690px;
+    top: -4px;
+    position: relative;
+    right: -93px;
+    padding-bottom: 5px;
+    margin-bottom: -10px;
+}
+
+#headline {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2A7CC7;
+}
+
+.cta {
+    /* top: 0px; */
+    position: relative;
+    left: 126.5px
+}
+
+.cta-button {
+    width: 221px;
+    height: 62px;
+    padding: 15px 40px;
+    background-color: #23A6F0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
