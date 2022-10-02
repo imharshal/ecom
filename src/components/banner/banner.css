@@ -71,4 +71,10 @@ h5 {
     line-height: 32px;
     letter-spacing: 0.1px;
     text-align: center;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #2A7CC7
 }

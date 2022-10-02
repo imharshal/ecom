@@ -1,0 +1,159 @@
+.footer {
+    width: 1057px;
+    padding: 0 195px;
+    margin-top: 138px;
+}
+
+.footer hr {
+    width: 1057px;
+    height: 0px;
+    margin: 50px 0;
+    /* left: calc(50% - 1057px/2 + 3.5px); */
+    top: 138px;
+    background-color: #E6E6E6;
+    border: 1px solid #E6E6E6;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-main h3 {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 22px;
+    margin-right: 70px;
+}
+
+.footer-sitemap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column h5 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.copyrights {
+    margin-top: 52px;
+    padding: 25px 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    background: #FAFAFA;
+    padding-left: calc(50% - 1057px/2 + 3.5px);
+}
+
+.email-input {
+    box-sizing: border-box;
+    height: 58px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-right: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.subscribe-button {
+    box-sizing: border-box;
+    width: 117px;
+    height: 58px;
+    background-color: #23A6F0;
+    border: 1px solid #E6E6E6;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    outline: none;
+    color: #FFFFFF;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #2A7CC7
+}
+
+.random-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.invalid-email {
+    color: white;
+    background-color: #FF6B80;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.subscribed {
+    color: white;
+    background-color: #23A6F0;
+    padding: 5px;
+    border-radius: 5px;
+
+}

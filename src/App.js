@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { CartContext } from "./CartContext";
 import Banner from "./components/banner/banner";
+import Footer from "./components/footer/footer";
 import Navbar from "./components/navbar/navbar";
 import Products from "./components/products/product";
 
@@ -14,10 +15,9 @@ function App() {
       <BrowserRouter>
         <CartContext.Provider value={{ cartItems, setCartItems }}>
           <Navbar />
-
           <Banner />
           <Products />
-          <Banner />
+          <Footer />
         </CartContext.Provider>
       </BrowserRouter>
     </div>

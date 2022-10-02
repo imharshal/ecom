@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav id="navbar">
       <div className="left-nav">
-        <h3 className="nav-title">AccioJob</h3>
+        <h3 className="nav-brand">AccioJob</h3>
         <div className="collapse navbar-collapse">
           <ul>
             <li>
