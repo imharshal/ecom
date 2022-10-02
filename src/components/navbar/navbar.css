@@ -16,11 +16,6 @@
     align-items: center;
 }
 
-.left-nav {
-    width: 35%;
-    justify-content: space-between;
-}
-
 .nav-icon {
     margin-right: 5px;
     display: inline;
@@ -43,11 +38,6 @@
     color: #23A6F0;
 }
 
-.navbar-collapse {
-    display: flex;
-    justify-content: space-between;
-}
-
 .text-primary {
     color: #23A6F0;
 }
@@ -62,6 +52,7 @@
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #252B42;
+    margin-right: 111px;
 }
 
 #navbar ul {
