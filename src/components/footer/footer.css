@@ -1,13 +1,13 @@
 .footer {
     width: 1057px;
-    padding: 0 195px;
-    margin-top: 138px;
+    padding: 53px 195px;
+    margin-top: 95px;
 }
 
 .footer hr {
     width: 1057px;
     height: 0px;
-    margin: 50px 0;
+    margin: 53px 0;
     /* left: calc(50% - 1057px/2 + 3.5px); */
     top: 138px;
     background-color: #E6E6E6;
@@ -64,6 +64,10 @@
     margin-bottom: 10px;
 }
 
+.footer-column ul li:last-child {
+    margin-bottom: 0;
+}
+
 .footer-column ul li a {
     text-decoration: none;
     font-family: 'Montserrat';
@@ -76,7 +80,6 @@
 }
 
 .copyrights {
-    margin-top: 52px;
     padding: 25px 0;
     font-family: 'Montserrat';
     font-style: normal;
