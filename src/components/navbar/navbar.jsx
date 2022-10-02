@@ -58,7 +58,7 @@ const Navbar = () => {
         <li>
           <span className="nav-item align-center">
             <img className="nav-icon" src={heart} alt="search-icon"></img>
-            {cartItems || 0}
+            {1}
           </span>
         </li>
       </ul>

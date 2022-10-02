@@ -1,0 +1,115 @@
+.products h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+
+.product-list {
+    /* height: 472px; */
+    padding: 5px;
+    width: 1292px;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    gap: 34px;
+}
+
+.product-card {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    width: 366px;
+    padding: 14px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.product-image {
+    width: auto;
+}
+
+.product-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    height: 32px;
+}
+
+.old-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    text-decoration-line: line-through;
+    color: #444444;
+}
+
+.new-price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+.product-prices {
+    display: flex;
+    gap: 11px;
+}
+
+.flex-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.rating-star {
+    width: 18px;
+    height: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.add-to-cart {
+    width: 328px;
+    height: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    outline: none;
+    letter-spacing: 0.1px;
+    margin: 0 auto;
+    border: 1px solid #23A6F0;
+    color: #FFFFFF;
+    background-color: #23A6F0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #2A7CC7
+}
