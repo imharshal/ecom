@@ -140,7 +140,9 @@ const Footer = () => {
                 <p className="invalid-email">Enter a valid email.</p>
               )}
               {subscribed && (
-                <p className="subscribed">We will get in touch soon.</p>
+                <p className="subscribed">
+                  We will get in touch with you soon.
+                </p>
               )}
             </div>
           </div>
