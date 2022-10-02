@@ -10,9 +10,7 @@
 }
 
 .product-list {
-    /* margin-top: 40px; */
-    /* height: 472px; */
-    /* padding-top: 5px; */
+    padding: 0 10px;
     padding-bottom: 10px;
     width: 1292px;
     overflow-x: auto;
